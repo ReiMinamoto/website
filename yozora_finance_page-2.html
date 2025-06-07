@@ -142,18 +142,21 @@
             justify-content: center;
         }
 
-        /* Vision */
-        .vision {
-            text-align: center;
-        }
-
-        .vision p {
+        /* Yozora-finance */
+        .yozora-finance .lead {
             font-size: 1.3rem;
             max-width: 600px;
             margin: 0 auto;
             border-left: 4px solid #38BDF8;
             padding-left: 2rem;
             font-style: italic;
+        }
+
+        .yozora-finance .description p {
+            font-size: 1rem;
+            max-width: 700px;
+            margin: 0 auto 1.5rem;
+            line-height: 1.8;
         }
 
         /* Problems */
@@ -450,7 +453,7 @@
                 <nav>
                     <ul>
                         <li><a href="#home">Home</a></li>
-                        <li><a href="#vision">Vision</a></li>
+                        <li><a href="#yozora-finance">About Us</a></li>
                         <li><a href="#product">Product</a></li>
                         <li><a href="#community">Community</a></li>
                         <li><a href="#join">Join</a></li>
@@ -474,11 +477,20 @@
         </div>
     </section>
 
-    <!-- Vision -->
-    <section class="vision" id="vision">
+    <!-- Yozora-finance -->
+    <section class="yozora-finance" id="yozora-finance">
         <div class="container">
-            <h2>ビジョン</h2>
-            <p>誰もが自分仕様の資産運用エージェントを開発・活用できる世界を目指す。</p>
+            <h2>Yozora Financeについて</h2>
+
+            <p class="lead">誰もが自分仕様の資産運用エージェントを開発・活用できる世界を目指す。</p>
+
+            <div class="description">
+                <p>私たちは、「誰もが自分仕様の資産運用エージェントを開発・活用できる世界」を目指しています。そのためには、エージェントを開発するだけでなく、その成果を適切に評価・比較し、継続的に改善する仕組みが欠かせません。</p>
+                <p>現在、LLM（大規模言語モデル）やAIエージェントの評価基盤は、質疑応答や要約、センチメント分析といったタスクに偏っており、実際の運用成績を評価する指標（シャープレシオなど）を用いた評価は、ほとんど整備されていないのが現状です。また、多くの金融系ベンチマークは英語圏を対象としており、日本語や日本市場に特化したものは非常に少ないのが実情です。</p>
+                <p>こうした状況を打開するため、私たち早稲田大学の学生エンジニアチームは、「Yozora Hub / Arena」というオープンプラットフォームを開発しています。このプラットフォームでは、日本市場向けの投資AIエージェントを開発・共有・競争できる場を提供し、シャープレシオや最大ドローダウン、推論コストなど複数の観点から、エージェントの実運用性能を公平に評価・ランキング化できる環境を整えています。</p>
+                <p>さらに、Look-ahead Bias（バックテスト時に未来の情報を誤って利用してしまうこと）を防ぐ仕組みや、統計的な有意性を考慮した比較手法を導入しており、信頼性の高い評価が可能です。</p>
+                <p>このプラットフォームは、6月末にオープンソースとして公開予定です。ぜひご確認ください。</p>
+            </div>
         </div>
     </section>
 
